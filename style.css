@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #f54725;
+  --tertiary-color: orange;
+  --text-dark: rgb(5, 1, 1);
+  --text-light: #475569;
+  --white: #ffffff;
+  --max-width: 1400px;
+  --header-font: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dancing script";
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-weight: 700;
+  max-width: var(--max-width);
+  margin-left: 95px;  
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 500px;
+  margin: 2rem 5rem;
+  font-size: 25px;
+}
+.links a {
+  color: var(--text-dark);
+}
+
+.links a:hover {
+  color: var(--tertiary-color);
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 80px;
+  margin: 2rem 0;
+}
+
+.header-icons a:hover {
+  background-color: orange;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.search-icon {
+  width:20px;
+}
+
+.user-icon {
+  width: 20px;
+}
+
+.card-icon {
+  width: 20px;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+hr {
+  width: 90.5%;
+  height: 5px;
+  color: black;
+  background-color: black;
+  margin-left: 80px;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem 1rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.text {
+  height: 500px;
+}
+
+.candle-name {
+  margin-top: -50px;
+  font-size: 90px;
+  font-family: "Dancing script";
+  margin-bottom: 40px;
+}
+
+.candle-about {
+  font-size: 30px;
+  font-family: "Dancing script";
+}
+
+.candle-umirors {
+  margin-top: 100px;
+}
+
+.shop-btn {
+  background-color: var(--tertiary-color);
+  width: 200px;
+  height: 70px;
+  position:absolute;
+  top: 660px;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reviews {
+  position: absolute;
+  top: 700px;
+  width: 170px;
+}
+
+.review-count {
+  position: absolute;
+  top: 770px;
+  left: 370px;
+  font-family: "Dancing script";
+  font-size: 25px;
+}
+
+
+
+
+
+
+
